@@ -19,23 +19,28 @@ Gin-example
 
 ## 目录结构
 
+```
+├── Readme.md
+├── a.txt
 ├── apps
-│       ├── api
-│       ├── chat
-│       ├── cron
-│       └── admin 
+│   ├── api
+│   ├── chat
+│   ├── cron
+│   └── dashboard
+├── go.mod
+├── go.sum
 ├── logic
-│       └── config.go
+│   └── config.go
 ├── middleware
-│       ├── auth.go
-│       └── rate.go
+│   ├── auth.go
+│   └── rate.go
 └── models
-        ├── cache
-        ├── mysql
-        ├── posts.go
-        ├── queue
-        └── users.go
-
+    ├── cache
+    ├── mysql
+    ├── posts.go
+    ├── queue
+    └── users.go
+```
 
 ## 路由层
 
@@ -44,3 +49,6 @@ Gin-example
 ## 模型层
 
 # other
+
+
+14 directories, 16 files
