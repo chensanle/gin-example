@@ -1,7 +1,6 @@
-package logic
+package models
 
 import (
-	"log"
 	"path"
 	"runtime"
 
